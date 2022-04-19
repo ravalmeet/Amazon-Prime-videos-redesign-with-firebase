@@ -1,0 +1,93 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  font-weight: 500;
+  font-size: 20px;
+}
+.navbar-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.prime-logo {
+  width: 8rem;
+  height: 4rem;
+  background: transparent;
+  margin-left: -150px;
+  margin-top: 10px;
+}
+#nav-left-first {
+  margin-left: 60px;
+}
+
+.nav-left a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: rgb(116, 123, 130);
+}
+.nav-left a:hover {
+  color: white;
+  cursor: pointer;
+}
+.nav-right p:hover {
+  color: white;
+  cursor: pointer;
+}
+.nav-right {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: space-between;
+}
+.nav-right p {
+  color: rgb(116, 123, 130);
+  margin-right: 25px;
+}
+.nav-right {
+  margin-right: 20px;
+}
+
+.nav-right img {
+  width: 30px;
+  height: auto;
+  background: transparent;
+  margin-right: 15px;
+}
+.icon-nav{
+  color:white;
+  margin-top: 5px;
+  margin-right: 50px;
+  cursor:pointer;
+}
+
+.icon-box{
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 50px; */
+  color:white;
+  /* min-width: 150; */
+  min-height: 10vh;
+  right: 25px;
+  background: rgba(0,0,0,1);
+
+  margin-bottom: 20px;
+  margin-top: 5vh;
+  margin-right: -10px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.box-hr{
+  min-width: 80%;
+}
+.icon-box p{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}

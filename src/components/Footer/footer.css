@@ -1,0 +1,30 @@
+
+.prime-logo-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 4rem;
+  margin-left: 48%;
+}
+
+.first{
+  min-width: 100vh;
+}
+.second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+.second p {
+  margin-left: 15px;
+  
+}
+.footer-blue{
+  color: #0960b6;
+  font-weight: 700;
+  cursor: pointer;
+  
+}

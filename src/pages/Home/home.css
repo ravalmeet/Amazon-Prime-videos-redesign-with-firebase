@@ -1,0 +1,35 @@
+.filter{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0px;
+}
+.filter p{
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  color:rgb(116, 123, 130);
+  cursor: pointer;
+}
+.filter p:hover{
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(197, 195, 195); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(143, 142, 142); 
+}
